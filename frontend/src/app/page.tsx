@@ -62,7 +62,7 @@ export default function Home() {
     const constructedGoal = `${goals.join(", ")} for ${targetRole} role`;
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/roadmap", {
+      const response = await fetch("https://prep-pilot-x5s4.onrender.com/roadmap", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -103,7 +103,7 @@ export default function Home() {
     formData.append("job_link", jobLink);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/resume-match", {
+      const response = await fetch("https://prep-pilot-x5s4.onrender.com/resume-match", {
         method: "POST",
         body: formData,
       });
