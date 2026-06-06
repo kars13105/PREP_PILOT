@@ -174,7 +174,6 @@ https://prep-pilot-lovat.vercel.app/
 
 **Kartik Sen**
 
-B.Tech, Metallurgical & Materials Engineering
 Indian Institute of Technology Patna
 
 GitHub: https://github.com/kars13105
